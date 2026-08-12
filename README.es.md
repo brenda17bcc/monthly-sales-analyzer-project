@@ -1,84 +1,46 @@
-# Analizador de Ventas Mensuales
+# 📊 Analizador de Ventas Mensuales
 
-En este proyecto, te pondrás en el papel de un analista de datos encargado de evaluar el rendimiento de ventas de tres productos durante un mes. Para ello, trabajarás con un conjunto de datos estructurado en una lista de diccionarios, donde cada entrada representa las ventas diarias de cada producto. Tu tarea será completar varias funciones en Python que te permitirán calcular totales, promedios, encontrar los días más y menos exitosos, y analizar tendencias de ventas. A medida que completes cada función, estarás fortaleciendo tus habilidades en manipulación de datos y lógica de programación, preparándote para futuros proyectos en ciencia de datos.
+Proyecto de análisis de datos en el que asumo el rol de analista para evaluar el rendimiento de ventas de tres productos durante un mes. El objetivo es procesar los datos y extraer información útil usando **Python puro**, sin librerías externas.
 
-<onlyfor saas="false" withBanner="false">
-  
-### 🌱 Cómo iniciar este proyecto
+## 🎯 Objetivo
 
-Sigue las siguientes instrucciones:
+Trabajar con un conjunto de datos estructurado como una lista de diccionarios (20 días de ventas para tres productos) y completar varias funciones que permiten analizar el comportamiento de las ventas.
 
-1. Crear un nuevo repositorio haciendo fork en el [proyecto de Git](https://github.com/4GeeksAcademy/monthly-sales-analyzer-project) o [haciendo clic aquí](https://github.com/4GeeksAcademy/monthly-sales-analyzer-project/fork).
-2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
+## 🔧 Funcionalidades
 
-</onlyfor>
+El proyecto incluye funciones para:
 
+- **Calcular el total de ventas** de un producto a lo largo de los 20 días.
+- **Calcular el promedio** de ventas diarias de cada producto.
+- **Identificar el mejor y el peor día** de ventas.
+- **Analizar la tendencia** de las ventas durante el mes.
 
-## 📝 Instrucciones
+## 🛠️ Tecnologías
 
-Se te ha proporcionado un archivo Python (`monthly_sales_analyzer.py`) que contiene datos de ventas de un mes para tres productos a lo largo de 20 días. Tu tarea es completar las funciones vacías para analizar estos datos utilizando habilidades básicas de Python: bucles, condicionales y estructuras de datos. Este proyecto evaluará tu capacidad para procesar y extraer información de un conjunto de datos, preparándote para conceptos de ciencia de datos.
+- **Python** (bucles, condicionales y estructuras de datos)
+- Sin librerías externas
 
+## 📚 Conceptos practicados
 
-- Los datos se almacenan en una variable llamada `sales_data`, una lista de 20 diccionarios. Cada diccionario representa un día y tiene:
-    - `"day"`: Número del día (1 a 20).
-    - `"product_a"`: Ventas del Producto A.
-    - `"product_b"`: Ventas del Producto B.
-    - `"product_c"`: Ventas del Producto C.
+- Manipulación de datos con listas y diccionarios
+- Lógica de programación y control de flujo
+- Procesamiento y extracción de información de un dataset
 
-Ejemplo: 
+## 🚀 Cómo ejecutarlo
 
-```python
-{"day": 1, "product_a": 150, "product_b": 80, "product_c": 200}
+1. Clona el repositorio:
+```bash
+   git clone https://github.com/brenda17bcc/monthly-sales-analyzer-project.git
+```
+2. Entra en la carpeta del proyecto:
+```bash
+   cd monthly-sales-analyzer-project
+```
+3. Ejecuta el archivo:
+```bash
+   python monthly_sales_analyzer.py
 ```
 
-- Completa las cinco funciones de marcador de posición en el archivo. 
+---
 
-- Cada función analiza los `sales_data` de una manera específica. Usa solo Python básico, sin bibliotecas externas. El archivo incluye declaraciones `print` para probar tu trabajo.
-
-#### Funciones a Completar:  
-- **`total_sales_by_product(data, product_key)`:** Calcula las ventas totales de un producto dado (por ejemplo, `"product_a"`) a lo largo de 20 días.
-
-
-- **`average_daily_sales(data, product_key)`:** Calcula el promedio de ventas diarias de un producto dado.
-
-
-- **`best_selling_day(data)`:** Encuentra el día con las ventas totales más altas (suma de los tres productos).
-
-- **`days_above_threshold(data, product_key, threshold)`:** Cuenta cuántos días las ventas de un producto superaron un umbral dado. (por ejemplo, 18).
-
-- **`top_product(data)`:** Identifica qué producto (A, B o C) tuvo las ventas totales más altas.
-
-- Para probar tu código escribe el siguiente comando en la linea de comando:
-
-    ```bash
-    python3 monthly_sales_analyzer.py
-    ```
-
-## ¿Te sientes confiado? 😎:  
-- Agrega una función para encontrar el día con las peores ventas.
-- Ordena los días por ventas totales y muestra los 3 mejores.
-- Calcula el rango (máximo - mínimo) de las ventas de un producto.
-
-  
-Al final, habrás practicado el manejo de un conjunto de datos realista con Python básico, desarrollando habilidades para tu próximo curso de ciencia de datos. 
-
-¡Diviértete analizando!🚀
-
-
-## 🚛 Cómo entregar este proyecto
-
-Una vez que completes los ejercicios, sigue estos pasos para enviarlos correctamente:  
-
-1. **Guarda y confirma los cambios** en tu repositorio local:  
-
-   ```sh
-   git add .
-   git commit -m "Completed exercises"
-   ```
-2. Sube los cambios a GitHub con:
-
-    ```sh
-    git push origin main
-    ```
-3. Dirígete a [4Geeks.com](https://4geeks.com) para enviar el enlace de tu repositorio.
+Proyecto realizado como parte del bootcamp de **Data Science & Machine Learning** en 4Geeks Academy.
