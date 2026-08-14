@@ -1,46 +1,46 @@
-# 📊 Analizador de Ventas Mensuales
+# 📊 Monthly Sales Analyzer
 
-Proyecto de análisis de datos en el que asumo el rol de analista para evaluar el rendimiento de ventas de tres productos durante un mes. El objetivo es procesar los datos y extraer información útil usando **Python puro**, sin librerías externas.
+Data analysis project where I take on the role of an analyst to evaluate the sales performance of three products over a month. The goal is to process the data and extract useful insights using **pure Python**, with no external libraries.
 
-## 🎯 Objetivo
+## 🎯 Goal
 
-Trabajar con un conjunto de datos estructurado como una lista de diccionarios (20 días de ventas para tres productos) y completar varias funciones que permiten analizar el comportamiento de las ventas.
+Work with a dataset structured as a list of dictionaries (20 days of sales for three products) and complete several functions that analyze sales behavior.
 
-## 🔧 Funcionalidades
+## 🔧 Features
 
-El proyecto incluye funciones para:
+The project includes functions to:
 
-- **Calcular el total de ventas** de un producto a lo largo de los 20 días.
-- **Calcular el promedio** de ventas diarias de cada producto.
-- **Identificar el mejor y el peor día** de ventas.
-- **Analizar la tendencia** de las ventas durante el mes.
+- **Calculate total sales** of a product over the 20 days.
+- **Calculate the average** daily sales of each product.
+- **Identify the best and worst** sales days.
+- **Analyze the sales trend** throughout the month.
 
-## 🛠️ Tecnologías
+## 🛠️ Tech Stack
 
-- **Python** (bucles, condicionales y estructuras de datos)
-- Sin librerías externas
+- **Python** (loops, conditionals, and data structures)
+- No external libraries
 
-## 📚 Conceptos practicados
+## 📚 Concepts Practiced
 
-- Manipulación de datos con listas y diccionarios
-- Lógica de programación y control de flujo
-- Procesamiento y extracción de información de un dataset
+- Data manipulation with lists and dictionaries
+- Programming logic and control flow
+- Processing and extracting information from a dataset
 
-## 🚀 Cómo ejecutarlo
+## 🚀 How to Run
 
-1. Clona el repositorio:
+1. Clone the repository:
 ```bash
    git clone https://github.com/brenda17bcc/monthly-sales-analyzer-project.git
 ```
-2. Entra en la carpeta del proyecto:
+2. Go into the project folder:
 ```bash
    cd monthly-sales-analyzer-project
 ```
-3. Ejecuta el archivo:
+3. Run the file:
 ```bash
    python monthly_sales_analyzer.py
 ```
 
 ---
 
-Proyecto realizado como parte del bootcamp de **Data Science & Machine Learning** en 4Geeks Academy.
+Project completed as part of the **Data Science & Machine Learning** bootcamp at 4Geeks Academy.
